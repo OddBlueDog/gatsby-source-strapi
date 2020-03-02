@@ -26,7 +26,6 @@ exports.sourceNodes = async (
 ) => {
   const { createNode, deleteNode, touchNode } = actions
 
-
   // Authentication function
   let jwtToken = await authentication({ loginData, reporter, apiURL })
 
