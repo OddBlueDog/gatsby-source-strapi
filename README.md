@@ -2,9 +2,15 @@
 
 Source plugin for pulling documents into Gatsby from a Strapi API.
 
+## Info
+
+Published version of this fork: https://github.com/unagigd/gatsby-source-strapi
+
+More info here: https://github.com/strapi/gatsby-source-strapi/pull/122#issuecomment-765175178
+
 ## Install
 
-`npm install --save gatsby-source-strapi`
+`npm install --save @oddbluedog/gatsby-source-strapi-support-markdown-images`
 
 ## How to use
 
@@ -21,8 +27,8 @@ plugins: [
       singleTypes: [`home-page`, `contact`],
       // Possibility to login with a strapi user, when content types are not publically available (optional).
       loginData: {
-        identifier: "",
-        password: "",
+        identifier: '',
+        password: '',
       },
     },
   },
@@ -56,7 +62,7 @@ To query images you can do the following:
       node {
         id
         singleImage {
-         publicURL
+          publicURL
         }
         multipleImages {
           localFile {

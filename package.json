@@ -1,18 +1,10 @@
 {
-  "name": "gatsby-source-strapi",
-  "version": "0.0.12",
-  "description": "Gatsby source plugin for building websites using Strapi as a data source",
-  "author": {
-    "email": "hi@strapi.io",
-    "name": "Strapi Solutions",
-    "url": "http://strapi.io"
-  },
+  "name": "@oddbluedog/gatsby-source-strapi-support-markdown-images",
+  "version": "0.0.13",
+  "description": "Gatsby source plugin for building websites using Strapi as a data source with a workaround to support markdown images",
+  "author": "Strapi Solutions <hi@strapi.io> (http://strapi.io)",
   "maintainers": [
-    {
-      "name": "Strapi Solutions",
-      "email": "hi@strapi.io",
-      "url": "http://strapi.io"
-    }
+    "Strapi Solutions <hi@strapi.io> (http://strapi.io)"
   ],
   "repository": {
     "type": "git",
@@ -66,5 +58,6 @@
       "eslint --cache --fix",
       "prettier --write"
     ]
-  }
+  },
+  "main": "index.js"
 }
