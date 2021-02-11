@@ -20,7 +20,7 @@ See more here: https://github.com/strapi/gatsby-source-strapi/pull/122#issuecomm
 // In your gatsby-config.js
 plugins: [
   {
-    resolve: `gatsby-source-strapi`,
+    resolve: `@oddbluedog/gatsby-source-strapi-support-markdown-images`,
     options: {
       apiURL: `http://localhost:1337`,
       queryLimit: 1000, // Default to 100
