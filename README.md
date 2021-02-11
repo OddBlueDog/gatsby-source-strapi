@@ -4,7 +4,7 @@ Source plugin for pulling documents into Gatsby from a Strapi API.
 
 ## Info
 
-Published version of this fork: https://github.com/unagigd/gatsby-source-strapi
+Published version of this fork: https://github.com/unagigd/gatsby-source-strapi (forked to with minor changes: https://github.com/OddBlueDog/gatsby-source-strapi)
 
 More info here: https://github.com/strapi/gatsby-source-strapi/pull/122#issuecomment-765175178
 
@@ -13,6 +13,8 @@ More info here: https://github.com/strapi/gatsby-source-strapi/pull/122#issuecom
 `npm install --save @oddbluedog/gatsby-source-strapi-support-markdown-images`
 
 ## How to use
+
+See more here: https://github.com/strapi/gatsby-source-strapi/pull/122#issuecomment-612969087
 
 ```javascript
 // In your gatsby-config.js
@@ -29,6 +31,11 @@ plugins: [
       loginData: {
         identifier: '',
         password: '',
+      },
+      markdownImages: {
+        typesToParse: {
+          article: ['content'],
+        },
       },
     },
   },
