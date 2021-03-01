@@ -71,7 +71,7 @@ const extractFields = async (apiURL, store, cache, createNode, touchNode, auth, 
           item[`${key}___NODE`] = fileNodeID
         }
       } else if (field !== null && typeof field === 'object') {
-        extractFields(apiURL, store, cache, createNode, touchNode, auth, field, options)
+        await extractFields(apiURL, store, cache, createNode, touchNode, auth, field, options)
       } else if (field !== null && shouldParseForImages(key)) {
         // parse the markdown content
         const parsed = reader.parse(field)
