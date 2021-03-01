@@ -1,6 +1,6 @@
 {
   "name": "@oddbluedog/gatsby-source-strapi-support-markdown-images",
-  "version": "0.0.17",
+  "version": "0.0.19",
   "description": "Gatsby source plugin for building websites using Strapi as a data source with a workaround to support markdown images",
   "author": "Strapi Solutions <hi@strapi.io> (http://strapi.io)",
   "maintainers": [
@@ -34,11 +34,11 @@
     "strapi gatsby images"
   ],
   "dependencies": {
-    "axios": "^0.18.0",
-    "commonmark": "^0.29.1",
+    "axios": "^0.21.1",
+    "commonmark": "^0.29.3",
     "gatsby-node-helpers": "^0.3.0",
     "gatsby-source-filesystem": "^1.5.39",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "pluralize": "^7.0.0"
   },
   "devDependencies": {
